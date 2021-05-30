@@ -10,7 +10,7 @@ public class LoginPage {
 		driver.get("https://flipkart.com");
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
-
+		driver.getWindowHandle();
 	}
 
 }
