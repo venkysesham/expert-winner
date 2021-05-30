@@ -9,6 +9,7 @@ public class LoginPage {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://flipkart.com");
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 
 	}
 
